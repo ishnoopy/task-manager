@@ -142,3 +142,7 @@ Endpoints:
 - Database is SQLite (`backend/db.sqlite3`).
 - Frontend uses Axios for API calls and `react-hook-form` + `zod` for form validation.
 - The backend exposes task routes at root (no `/api/` prefix).
+
+## Preview
+<img width="974" height="896" alt="image" src="https://github.com/user-attachments/assets/82d180b3-b4e9-4a8a-a62e-e1f8ce68923f" />
+
