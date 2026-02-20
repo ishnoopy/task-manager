@@ -1,0 +1,46 @@
+###
+# Get all tasks
+GET http://localhost:8000/tasks/
+Accept: application/json
+
+###
+# Create a new task
+POST http://localhost:8000/tasks/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Task 1",
+  "description": "Description 1"
+}
+
+###
+# Get a single task by ID
+GET http://localhost:8000/tasks/1/
+Accept: application/json
+
+###
+# Update a task completely by ID
+PUT http://localhost:8000/tasks/1/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Task 3 Updated",
+  "description": "Description 3 Updated"
+}
+
+###
+# Partially update a task's completed status
+PATCH http://localhost:8000/tasks/1/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "completed": true
+}
+
+###
+# Delete a task by ID
+DELETE http://localhost:8000/tasks/1/
+Accept: application/json

@@ -1,0 +1,9 @@
+{
+  "name": "task-manager",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "pnpm -C frontend dev",
+    "dev:backend": "cd backend && source venv/bin/activate && python manage.py runserver",
+    "build:frontend": "pnpm -C frontend build"
+  }
+}
