@@ -86,7 +86,7 @@ Endpoints:
 
 - List all tasks (ordered by newest first)
 
-1. `POST /tasks/`
+2. `POST /tasks/`
 
 - Create a task
 - Request body:
@@ -99,11 +99,11 @@ Endpoints:
 }
 ```
 
-1. `GET /tasks/{id}/`
+3. `GET /tasks/{id}/`
 
 - Retrieve a single task
 
-1. `PUT /tasks/{id}/`
+4. `PUT /tasks/{id}/`
 
 - Update full task
 - Request body should include:
@@ -116,7 +116,7 @@ Endpoints:
 }
 ```
 
-1. `PATCH /tasks/{id}/`
+5. `PATCH /tasks/{id}/`
 
 - Toggle/set completion only
 - Request body:
@@ -129,7 +129,7 @@ Endpoints:
 
 - If `completed` is missing, API returns `400` with detail message.
 
-1. `DELETE /tasks/{id}/`
+6. `DELETE /tasks/{id}/`
 
 - Delete task
 - Returns `204 No Content`
