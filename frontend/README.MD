@@ -47,3 +47,6 @@ If backend and frontend are already set up, you can run from project root:
 pnpm run dev:frontend
 pnpm run build:frontend
 ```
+## Preview
+
+![Preview](public/preview.png)
